@@ -1,0 +1,33 @@
+.testimonial-carousel-wrapper {
+  position: relative;
+  padding-bottom: 70px;
+}
+
+/* Bottom arrow controls */
+.testimonial-carousel-wrapper .custom-control {
+  position: absolute;
+  bottom: 10px;
+  z-index: 5;
+  background: none;
+  border: none;
+}
+
+/* Centered arrows */
+.testimonial-carousel-wrapper .carousel-control-prev {
+  left: 45%;
+  height: 100vh;
+}
+
+.testimonial-carousel-wrapper .carousel-control-next {
+  right: 45%;
+  height: 100vh;
+}
+
+/* Arrow button UI */
+.testimonial-carousel-wrapper .carousel-control-prev-icon,
+.testimonial-carousel-wrapper .carousel-control-next-icon {
+  background-color: #007bff;
+  border-radius: 50%;
+  padding: 10px;
+  background-size: 60% 60%;
+}

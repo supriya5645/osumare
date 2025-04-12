@@ -1,0 +1,31 @@
+.form-wrapper {
+  background: linear-gradient(to right,
+      #e6f2ff 0%,
+      #ffffff 50%,
+      #fff1f1 100%);
+  min-height: 100vh;
+  padding: 3rem 1rem;
+}
+
+.form-box {
+  background-color: white;
+  border-radius: 15px;
+  max-width: 850px;
+  width: 100%;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+textarea.form-control {
+  resize: none;
+  min-height: 160px;
+}
